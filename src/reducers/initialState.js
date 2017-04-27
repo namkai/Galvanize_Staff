@@ -136,7 +136,6 @@ export default {
       tag: 'WDI',
     },
   ],
-  member: [],
   query: '',
   tag: 'ALL',
 };

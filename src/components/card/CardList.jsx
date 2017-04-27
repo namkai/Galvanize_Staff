@@ -9,6 +9,7 @@ import PropTypes from 'prop-types';
 import Card from './Card';
 
 export const CardList = props => {
+
   const generateList = list => {
     return list.map((member, key) => {
       return (

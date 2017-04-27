@@ -10,7 +10,7 @@ export const Input = (props) => {
 
   return (
     <div>
-      <input type="text" onChange={logChange} value={query}/>
+      <input type="text" autoFocus={true} onChange={logChange} value={query}/>
     </div>
   );
 };
