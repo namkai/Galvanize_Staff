@@ -1,4 +1,4 @@
-exports[`Input Welcome renders its child components 1`] = `
+exports[`CardList Welcome renders its child components 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -6,20 +6,32 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div>
-    <input
-        autoFocus={true}
-        onChange={[Function]}
-        type="text"
-        value={undefined} />
+  "node": <div
+    className="row">
+    <CSSTransitionGroup
+        transitionAppear={true}
+        transitionAppearTimeout={1000}
+        transitionEnter={true}
+        transitionEnterTimeout={1000}
+        transitionLeave={true}
+        transitionLeaveTimeout={1000}
+        transitionName="example">
+        
+    </CSSTransitionGroup>
 </div>,
   "nodes": Array [
-    <div>
-      <input
-            autoFocus={true}
-            onChange={[Function]}
-            type="text"
-            value={undefined} />
+    <div
+      className="row">
+      <CSSTransitionGroup
+            transitionAppear={true}
+            transitionAppearTimeout={1000}
+            transitionEnter={true}
+            transitionEnterTimeout={1000}
+            transitionLeave={true}
+            transitionLeaveTimeout={1000}
+            transitionName="example">
+            
+      </CSSTransitionGroup>
 </div>,
   ],
   "options": Object {},
@@ -56,20 +68,32 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div>
-          <input
-                    autoFocus={true}
-                    onChange={[Function]}
-                    type="text"
-                    value={undefined} />
+        "_currentElement": <div
+          className="row">
+          <CSSTransitionGroup
+                    transitionAppear={true}
+                    transitionAppearTimeout={1000}
+                    transitionEnter={true}
+                    transitionEnterTimeout={1000}
+                    transitionLeave={true}
+                    transitionLeaveTimeout={1000}
+                    transitionName="example">
+                    
+          </CSSTransitionGroup>
 </div>,
         "_debugID": 2,
-        "_renderedOutput": <div>
-          <input
-                    autoFocus={true}
-                    onChange={[Function]}
-                    type="text"
-                    value={undefined} />
+        "_renderedOutput": <div
+          className="row">
+          <CSSTransitionGroup
+                    transitionAppear={true}
+                    transitionAppearTimeout={1000}
+                    transitionEnter={true}
+                    transitionEnterTimeout={1000}
+                    transitionLeave={true}
+                    transitionLeaveTimeout={1000}
+                    transitionName="example">
+                    
+          </CSSTransitionGroup>
 </div>,
       },
       "_renderedNodeType": 0,

@@ -8,10 +8,10 @@ ShallowWrapper {
   "length": 1,
   "node": <div
     className="container">
-    <h2
+    <h3
         className="center">
         Galvanize Staff
-    </h2>
+    </h3>
     <div
         className="container">
         <Connect(Component) />
@@ -29,10 +29,10 @@ ShallowWrapper {
   "nodes": Array [
     <div
       className="container">
-      <h2
+      <h3
             className="center">
             Galvanize Staff
-      </h2>
+      </h3>
       <div
             className="container">
             <Connect(Component) />
@@ -84,10 +84,10 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
           className="container">
-          <h2
+          <h3
                     className="center">
                     Galvanize Staff
-          </h2>
+          </h3>
           <div
                     className="container">
                     <Connect(Component) />
@@ -105,10 +105,10 @@ ShallowWrapper {
         "_debugID": 2,
         "_renderedOutput": <div
           className="container">
-          <h2
+          <h3
                     className="center">
                     Galvanize Staff
-          </h2>
+          </h3>
           <div
                     className="container">
                     <Connect(Component) />

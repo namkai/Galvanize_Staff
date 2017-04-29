@@ -18,7 +18,7 @@ export default {
     },
     {
       name: 'James Van',
-      bio: 'James Van bio',
+      bio: 'James is excited to help students transition back into the workforce. He currently works with Galvanize students and grads to find their next pathway to a happy and productive career. Prior to Galvanize, James worked as Career Services Manager at HULT International Business school, where he worked with graduate business students from over 100 different countries. Other experience includes UC Berkeley and Golden Gate University. Prior to switching to higher education, James worked as a technical recruiter for 9 years in San Francisco and Silicon Valley to place talent in tech-related companies. James holds a Masters Degree in Counseling Education with an emphasis on Career Counseling. Aside from his day job, he owns his own surf sports store, selling windsurf, surf, and SUP gear. Any leftover free time is spent on the water, with his family (one daughter, one dog), or friends. ',
       picture: 'http://i.imgur.com/wJASric.jpg',
       role: 'Career Services Manager',
       link: 'https://www.linkedin.com/in/jamesvan/',

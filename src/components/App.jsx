@@ -2,11 +2,11 @@ import React from 'react';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import '../../style/transition.css';
 
-import CardList from './card/CardList';
+import CardList from './CardList';
 import Input from './Input';
 import Tabs from './Tabs';
 
-const App = (props) => {
+const App = () => {
 
   return (
     <div className="container">
