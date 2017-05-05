@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86970db3-d9a2-41f0-9968-8c494847e8a8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.jsx" afterPath="$PROJECT_DIR$/src/components/App.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Card.jsx" afterPath="$PROJECT_DIR$/src/components/Card.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CardList.jsx" afterPath="$PROJECT_DIR$/src/components/CardList.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Input.jsx" afterPath="$PROJECT_DIR$/src/components/Input.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tabs.jsx" afterPath="$PROJECT_DIR$/src/components/Tabs.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/initialState.js" afterPath="$PROJECT_DIR$/src/reducers/initialState.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/query_reducer.js" afterPath="$PROJECT_DIR$/src/reducers/query_reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/staff_reducer.js" afterPath="$PROJECT_DIR$/src/reducers/staff_reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/tag_reducer.js" afterPath="$PROJECT_DIR$/src/reducers/tag_reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/selectors/selected_staff.js" afterPath="$PROJECT_DIR$/src/selectors/selected_staff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/selectors/selected_tab.js" afterPath="$PROJECT_DIR$/src/selectors/selected_tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/__snapshots__/App.test.js.snap" afterPath="$PROJECT_DIR$/tests/__snapshots__/App.test.js.snap" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,6 +76,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Input.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Input.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Input.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -132,16 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="initialState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/initialState.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -184,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/components/card/Card.jsx" />
         <option value="$PROJECT_DIR$/style/card.css" />
         <option value="$PROJECT_DIR$/tests/Card.test.js" />
-        <option value="$PROJECT_DIR$/src/components/App.jsx" />
         <option value="$PROJECT_DIR$/tests/Tabs.test.js" />
         <option value="$PROJECT_DIR$/tests/jestsetup.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -200,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/components/Input.jsx" />
         <option value="$PROJECT_DIR$/src/components/CardList.jsx" />
         <option value="$PROJECT_DIR$/src/components/Card.jsx" />
+        <option value="$PROJECT_DIR$/src/components/App.jsx" />
       </list>
     </option>
   </component>
@@ -474,7 +461,7 @@
       <workItem from="1493660909236" duration="412000" />
       <workItem from="1493662245826" duration="80000" />
       <workItem from="1493663267070" duration="842000" />
-      <workItem from="1494013389779" duration="2151000" />
+      <workItem from="1494013389779" duration="2207000" />
     </task>
     <servers />
   </component>
@@ -499,7 +486,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35510000" />
+    <option name="totallyTimeSpent" value="35566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -796,16 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Card.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -819,16 +796,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,8 +873,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Input.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

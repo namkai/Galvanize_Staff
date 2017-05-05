@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h3 className="center">Galvanize Staff</h3>
+      <h3 className="center">SF Galvanize Staff</h3>
       <div className="container">
         <Input/>
       </div>
