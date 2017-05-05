@@ -4,7 +4,7 @@ export default {
       name: 'Pamela Greenberg',
       bio: 'Pamela has been working in immersive technology education for 3 years after 10 years as a psychotherapist.  As Program Director for Galvanize San Francisco she works behind the scenes to support the Student Services and Instructor teams so that students have a great experience from Admissions all the way through Career Services.',
       picture: 'http://i.imgur.com/7697g0T.jpg?1',
-      role: 'Student Success Manager',
+      role: 'Program Director',
       link: 'https://www.linkedin.com/in/pamelagreenberg/',
       tag: '',
     },
