@@ -1,8 +1,8 @@
 import React from 'react';
 
 import '../../style/card.css';
-export const Card = (props) => {
-  const { name, bio, picture, role, link } = props;
+export const Card = ({ name, bio, picture, role, link }) => {
+
   return (
     <div className="col s12 m6 l4">
       <div className="card">

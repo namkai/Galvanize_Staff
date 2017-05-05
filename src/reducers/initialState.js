@@ -1,6 +1,14 @@
 export default {
   staff: [
     {
+      name: 'Pamela Greenberg',
+      bio: 'Pamela has been working in immersive technology education for 3 years after 10 years as a psychotherapist.  As Program Director for Galvanize San Francisco she works behind the scenes to support the Student Services and Instructor teams so that students have a great experience from Admissions all the way through Career Services.',
+      picture: 'http://i.imgur.com/7697g0T.jpg?1',
+      role: 'Student Success Manager',
+      link: 'https://www.linkedin.com/in/pamelagreenberg/',
+      tag: '',
+    },
+    {
       name: 'Jenny Engard',
       bio: 'Jenny Engard is a people engager and empath with a passionate desire to make people aware of their own superpowers and happiness potential. She has worked in the entertainment, beauty and education industries as a musician, artist, consultant, career coach, executive assistant and now as the Student Success Manager at Galvanize. When she\'s not busy wrangling biographical data or keeping culture moving, Jenny can be found engaging in useless trivia, building arts and crafts, or performing with her karaoke family.',
       picture: 'http://i.imgur.com/XZRSXFv.png',
@@ -127,7 +135,7 @@ export default {
       role: 'Instructor, Web Development',
       link: 'https://www.linkedin.com/in/parker-lewis/',
       tag: 'WDI',
-    },{
+    }, {
       name: 'Namkai Fairfield',
       bio: '',
       picture: 'http://i.imgur.com/s0DJczy.jpg?1',

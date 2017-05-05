@@ -19,7 +19,6 @@ const App = () => {
         transitionName="example"
         transitionAppear={true}
         transitionAppearTimeout={1000}
-        transitionEnter={false}
         transitionLeave={false}>
         <CardList/>
       </CSSTransitionGroup>

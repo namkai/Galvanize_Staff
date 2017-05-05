@@ -19,11 +19,5 @@ export const Tabs = props => {
   );
 };
 
-const style = {
-  textStyle: {
-    color: 'orange',
-  }
-}
-
 export default connect(null, { updateTag })(Tabs);
 
