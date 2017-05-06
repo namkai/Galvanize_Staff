@@ -7,7 +7,6 @@ import SelectedStaffSelector from '../selectors/selected_staff';
 import Card from './Card';
 
 export const CardList = ({ staff }) => {
-
 	const generateList = (list = []) => list.map((member, key) => <Card {...member} key={key}/>);
 
 	return (
