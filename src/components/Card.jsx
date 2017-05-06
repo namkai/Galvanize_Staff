@@ -6,7 +6,7 @@ export const Card = ({ name, bio, picture, role, link }) => {
   return (
     <div className="col s12 m6 l4">
       <div className="card">
-        <div className="card-image waves-effect waves-block waves-light" style={style.imageContainer}>
+        <div className="card-image waves-effect waves-block waves-light responsive-img" style={style.imageContainer}>
           <img className="activator" src={picture} style={style.image}/>
         </div>
         <div className="card-content">
