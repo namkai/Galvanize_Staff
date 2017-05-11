@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  staff_web:
+    image: namkai/galvanize_staff
+    ports:
+    - 3000:3000
+    volumes:
+    - $PWD:/Galvanize_Staff
