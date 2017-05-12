@@ -4,10 +4,9 @@ services:
 
   staff_web:
     image: namkai/galvanize_staff
-    ports:
-      - 3000:3000
-    volumes:
-      - $PWD:/Galvanize_Staff
+    restart: always
+    # volumes:
+    #   - $PWD:/Galvanize_Staff
 
   lb:
     image: dockercloud/haproxy
