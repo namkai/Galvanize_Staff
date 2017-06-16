@@ -6,8 +6,8 @@ const Navbar = (props) => {
   return (
 	  <nav style={{backgroundColor: '#282723', borderBottom: '1px solid orange'}}>
 		  <div className="nav-wrapper">
-			  <a href="#" className="brand-logo" style={{display: 'flex'}}>
-				  <img style={{height: '45px', marginTop: '8px', marginLeft: '8px'}} src={Logo} alt=""/>
+			  <a href="#" className="brand-logo" style={{display: 'flex', justifyContent: 'center'}}>
+				  <img style={{height: '38px', marginTop: '10px',  marginLeft: '10px'}} src={Logo} alt=""/>
 			  </a>
 			  <ul id="nav-mobile" className="right hide-on-med-and-down">
 				  <form>
