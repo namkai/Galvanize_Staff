@@ -135,13 +135,6 @@ export default {
       role: 'Instructor, Web Development',
       link: 'https://www.linkedin.com/in/parker-lewis/',
       tag: 'WDI',
-    }, {
-      name: 'Namkai Fairfield',
-      bio: '',
-      picture: 'http://i.imgur.com/s0DJczy.jpg?1',
-      role: 'Resident, Web Development',
-      link: 'https://www.linkedin.com/in/namkai/',
-      tag: 'WDI',
     },
   ],
   query: '',

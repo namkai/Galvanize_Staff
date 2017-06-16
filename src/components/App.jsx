@@ -1,29 +1,28 @@
 import React from 'react';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import '../../style/transition.css';
-
 import CardList from './CardList';
-import Input from './Input';
+import Navbar from './Navbar';
+
 import Tabs from './Tabs';
 
 const App = () => {
 
-  return (
-    <div className="container">
-      <h3 className="center">SF Galvanize Staff</h3>
-      <div className="container">
-        <Input/>
-      </div>
-      <Tabs/>
-      <CSSTransitionGroup
-        transitionName="example"
-        transitionAppear={true}
-        transitionAppearTimeout={1000}
-        transitionLeave={false}>
-        <CardList/>
-      </CSSTransitionGroup>
-    </div>
-  );
+	return (
+		<div className="app-container">
+			<Navbar />
+			<div className="container">
+				<Tabs/>
+				<CSSTransitionGroup
+					transitionName="example"
+					transitionAppear={true}
+					transitionAppearTimeout={1000}
+					transitionLeave={false}>
+					<CardList/>
+				</CSSTransitionGroup>
+			</div>
+		</div>
+	);
 };
 
 

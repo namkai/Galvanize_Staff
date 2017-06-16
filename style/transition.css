@@ -24,3 +24,46 @@
 	opacity: 1;
 	transition: opacity .5s ease-in;
 }
+
+.staff-container {
+	width: 1200px;
+	display: flex;
+	margin: 0 auto;
+	/*align-content: center;*/
+	/*text-align: center;*/
+	/*justify-content: center;*/
+
+}
+.container {
+	width: 1000px !important;
+}
+.app-container {
+	/*width: 100vw;*/
+	/*height: 100vh;*/
+	/*display: inline-flex;*/
+}
+@media only screen and (min-width: 701px) {
+	.container {
+		width: 700px !important;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.container {
+		width: 1000px !important;
+	}
+}
+
+@media only screen and ( max-width: 690px) {
+	.container {
+		width: 380px !important;
+		display: inline;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.container .row {
+		 margin-left: 0 !important;
+		 margin-right: 0 !important;
+	}
+}

@@ -7,7 +7,7 @@ import SelectedStaffSelector from '../selectors/selected_staff';
 import Card from './Card';
 
 export const CardList = ({ staff }) => {
-	const generateList = (list = []) => list.map((member, key) => <Card {...member} key={key}/>);
+	const generateList = staff.map((member, key) => <Card {...member} key={key}/>);
 
 	return (
 		<div className="row">
@@ -19,7 +19,7 @@ export const CardList = ({ staff }) => {
 				transitionAppearTimeout={1000}
 				transitionEnter={true}
 				transitionLeave={true}>
-				{generateList(staff)}
+				{generateList}
 			</CSSTransitionGroup>
 		</div>
 	);
